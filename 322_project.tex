@@ -546,27 +546,27 @@ With the given definitions we can define the equations of motion of the as follo
 
 \begin{center}
 \begin{align}
-    \dot{x} &= \frac{r}{2}(u_r+u_l)cos(\theta)   \label{ctrl_x}\\
-    \dot{y} &= \frac{r}{2}(u_r+u_l)sin(\theta)   \label{ctrl_y}\\
-    \dot{\theta} &= \frac{r}{L}(u_r - u_l)       \label{ctrl_o}
+    \dot{x} &= \frac{r}{2}(u_r+u_l)cos(\theta)   \label{eq:ctrl_x}\\
+    \dot{y} &= \frac{r}{2}(u_r+u_l)sin(\theta)   \label{eq:ctrl_y}\\
+    \dot{\theta} &= \frac{r}{L}(u_r - u_l)       \label{eq:ctrl_o}
 \end{align}
 \end{center}
 
 Clearly, the equations for $(\dot{x}, \dot{y})$ are non-linear, but if we define
-\begin{equation} \label{ctrl_r}
+\begin{equation} \label{eq:ctrl_r}
     \dot{r} = \sqrt{\dot{x}^2 + \dot{y}^2} = \frac{r}{2}(u_r+u_l)
 \end{equation}
 
 and use a polar coordinate system originating from the origin of the ADDV 
-then we have a completely linear system of equations given by \ref{ctrl_o}, \ref{ctrl_r}.
+then we have a completely linear system of equations given by \ref{eq:ctrl_o}, \ref{eq:ctrl_r}.
 
 This can be a useful coordinate system as we can define all desired end points as polar coordinates
 originating from ADDV. In order to additionally simplify our controls, we will define our translational and rotational movement as follows
 
 \begin{center}
 \begin{align}
-    \dot{r} &= \frac{r}{2}(u_r+u_l), u_r = u_l               \label{ctrl_t}\\
-    \dot{\theta} &= \frac{r}{L}(u_r - u_l), u_r = -u_l       \label{ctrl_rot}
+    \dot{r} &= \frac{r}{2}(u_r+u_l), u_r = u_l               \label{eq:ctrl_t}\\
+    \dot{\theta} &= \frac{r}{L}(u_r - u_l), u_r = -u_l       \label{eq:ctrl_rot}
 \end{align}
 \end{center}
 
@@ -740,9 +740,6 @@ The matlab code for this fucntion is given in the appendix.
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
 \newpage
-\begin{thebibliography}{1}
-
-\end{thebibliography}
 \appendix
 \begin{lstlisting}[language = MATLAB]
 % returns controls and positions to move from the 
