@@ -31,8 +31,7 @@ end
 % Given a starting location, two anonymous position functions, and a time
 % vector, return an array of coordinates (x,y,angle). t must start after
 % the starting coordinates, of course. The returned values will be: the x
-% coordinate, y coordinate, and the angle of the line between the previous
-% point and the current point. 
+% coordinate, y coordinate, and 
 function [x, y, theta] = gen_vectors(x_0,y_0, x_t, y_t, t)
     x = [];
     y = [];
