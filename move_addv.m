@@ -1,3 +1,4 @@
+
 % returns controls and positions to move from the 
 % current pose (x_0, y_0, o_0) to the desired end pose (x_f, y_f, z_f)
 % currently DOES NOT account for max speed/errors/etc
@@ -27,27 +28,4 @@ function [u_l, u_r] = move_addv(x_0, y_0, o_0, x_f, y_f, o_f)
     u_l(3) = L*2/r * theta;
     u_r(3) = - u_l(3);
 
-end
-% Given a starting location, two anonymous position functions, and a time
-% vector, return an array of coordinates (x,y,angle). t must start after
-% the starting coordinates, of course. The returned values will be: the x
-% coordinate, y coordinate, and the angle of the line between the previous
-% point and the current point. 
-function [x, y, theta] = gen_vectors(x_0,y_0, x_t, y_t, t)
-    x = [];
-    y = [];
-    theta = [];
-    for i = 1 to length(t)
-        x_temp = x_t(t(i));
-        y_temp = y_t(t(i));
-        x = [x x_temp];
-        y = [y y_temp];
-        if x_temp >= x_0 
-            theta = [theta atan((y_temp-y_0)/(x_temp-x_0))];
-        else
-            theta = [theta atan((y_temp-y_0)/(x_temp-x_0))+pi];
-        end
-        x_0 = x_temp;
-        y_0 = y_temp;
-    end
 end
