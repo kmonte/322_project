@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.21)  28 NOV 2016 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.21)  20 DEC 2016 23:39
 entering extended mode
 **"C:/Users/Kyle Montemayor/Documents/school/322_project/322_project.tex"
 ("C:/Users/Kyle Montemayor/Documents/school/322_project/322_project.tex"
@@ -616,72 +616,9 @@ LaTeX Font Info:    ... okay on input line 390.
 \c@lstlisting=\count156
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [1{C:/Users/Kyle Montemayor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-("C:\Users\Kyle Montemayor\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlan
-g1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \hbox (40.95313pt too wide) in paragraph at lines 745--746
-[][][][][][][][][][][][][][][][][][][] 
- []
+LaTeX Warning: Reference `ctrl_t' on page 1 undefined on input line 573.
 
 
-Overfull \hbox (166.9544pt too wide) in paragraph at lines 746--747
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (64.95337pt too wide) in paragraph at lines 747--748
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (166.9544pt too wide) in paragraph at lines 749--750
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-
-Overfull \hbox (118.95392pt too wide) in paragraph at lines 754--755
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 755.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 755.
- [2
-
-]
-(322_project.aux) ) 
-Here is how much of TeX's memory you used:
- 15439 strings out of 493634
- 311720 string characters out of 3141282
- 387543 words of memory out of 3000000
- 18586 multiletter control sequences out of 15000+200000
- 35646 words of font info for 66 fonts, out of 3000000 for 9000
- 1028 hyphenation exceptions out of 8191
- 55i,9n,69p,498b,1697s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/
-8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on 322_project.pdf (2 pages, 111979 bytes).
-PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Warning: Reference `ctrl_rot' on page 1 undefined on in
