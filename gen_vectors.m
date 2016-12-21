@@ -4,18 +4,22 @@
 % coordinate, y coordinate, and the angle of the line between the previous
 % point and the current point. 
 function [x, y, theta] = gen_vectors(x_0, y_0, x_t, y_t, t)
-    x = [];
-    y = [];
-    theta = [];
+    x = x_0;
+    y = y_0;
+    theta = 0;
     for i = 1:length(t)
         x_temp = x_t(t(i));
         y_temp = y_t(t(i));
         x = [x x_temp];
         y = [y y_temp];
-        if x_temp >= x_0 
-            theta = [theta atan((y_temp-y_0)/(x_temp-x_0))];
+        if x_temp-x_0 == 0
+            theta = [theta 0];
         else
-            theta = [theta atan((y_temp-y_0)/(x_temp-x_0))+pi];
+            if x_temp >= x_0 
+                theta = [theta atan((y_temp-y_0)/(x_temp-x_0))];
+            else
+                theta = [theta atan((y_temp-y_0)/(x_temp-x_0))+pi];
+            end
         end
         x_0 = x_temp;
         y_0 = y_temp;
